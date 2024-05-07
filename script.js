@@ -3,7 +3,7 @@ let res = document.querySelector('div#res')
 
 function calcular() {
     let value = Number(fvalue.value)
-    let taxa = 0.0449
+    let taxa = 0.0555
     let calculo = value * taxa
     let calculoFinal = calculo + value
 
